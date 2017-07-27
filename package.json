@@ -1,0 +1,51 @@
+{
+  "name": "ng2-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "Raghib Hasan <raghibmidhat@gmail.com> (http://raghibm.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "4.3.2",
+    "@angular/compiler": "4.3.2",
+    "@angular/core": "4.3.2",
+    "@angular/forms": "4.3.2",
+    "@angular/http": "4.3.2",
+    "@angular/platform-browser": "4.3.2",
+    "@angular/platform-browser-dynamic": "4.3.2",
+    "@angular/router": "4.3.2",
+    "core-js": "^2.4.1",
+    "lodash": "^4.16.1",
+    "rxjs": "^5.0.0-beta.12",
+    "zone.js": "0.8.14"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.33",
+    "@types/lodash": "^4.14.35",
+    "@types/node": "8.0.17",
+    "awesome-typescript-loader": "^3.0.0",
+    "css-loader": "0.28.4",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.1",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-mocha-reporter": "^2.0.4",
+    "raw-loader": "^0.5.1",
+    "to-string-loader": "^1.1.4",
+    "ts-helpers": "^1.1.1",
+    "typescript": "^2.1.1",
+    "webpack": "3.4.1",
+    "webpack-dev-server": "2.6.1"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "bugs": {
+    "url": "https://github.com/ragmha/ng2-starter/issues"
+  },
+  "homepage": "https://github.com/ragmha/ng2-starter#readme"
+}
